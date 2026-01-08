@@ -1,0 +1,25 @@
+DATA SPLIT SUMMARY
+==================================================
+Generated: 2026-01-07 19:22:00
+Random seed: 42
+
+SOURCE FILES:
+  Orange: /Users/hasancan/Desktop/sarcasm_detection/data/main_dataset_orange.csv
+  Gold: /Users/hasancan/Desktop/sarcasm_detection/data/sample_dataset_gold.csv
+
+ORIGINAL SIZES:
+  Orange: 690
+  Gold: 28
+  Orange-clean (after removing gold): 662
+
+SPLIT SIZES:
+  Train: 529 (79.9%)
+  Val: 66 (10.0%)
+  Test: 67 (10.1%)
+  Gold: 28 (held-out)
+
+LABEL DISTRIBUTIONS:
+  Train - Label 0: 266, Label 1: 263
+  Val   - Label 0: 33, Label 1: 33
+  Test  - Label 0: 34, Label 1: 33
+  Gold  - Label 0: 12, Label 1: 16
