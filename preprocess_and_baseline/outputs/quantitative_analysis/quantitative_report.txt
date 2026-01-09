@@ -1,0 +1,93 @@
+======================================================================
+QUANTITATIVE ERROR ANALYSIS REPORT
+======================================================================
+Generated: 2026-01-07 20:13:01
+
+
+======================================================================
+1. OVERALL ERROR BREAKDOWN
+======================================================================
+
+Top 5 conditions on GOLD set (by accuracy):
+  1. tier3_xlmr_logreg_cls, context_text, original
+     Accuracy: 0.7500, F1: 0.7879
+     TP=13, TN=8, FP=4, FN=3
+  2. tier3_xlmr_logreg_cls, context_text, normalized
+     Accuracy: 0.7143, F1: 0.7500
+     TP=12, TN=8, FP=4, FN=4
+  3. tier3_xlmr_logreg_cls, text_only, normalized
+     Accuracy: 0.7143, F1: 0.7333
+     TP=22, TN=18, FP=6, FN=10
+  4. tier3_xlmr_logreg_mean, text_only, normalized
+     Accuracy: 0.7143, F1: 0.7419
+     TP=23, TN=17, FP=7, FN=9
+  5. tier3_xlmr_logreg_mean, context_text, original
+     Accuracy: 0.6786, F1: 0.6897
+     TP=10, TN=9, FP=3, FN=6
+
+Top 5 conditions on TEST set (by accuracy):
+  1. tier2_tfidf_svm, context_text, original
+     Accuracy: 0.6866, F1: 0.6557
+  2. tier3_xlmr_logreg_cls, context_text, original
+     Accuracy: 0.6866, F1: 0.6769
+  3. tier3_xlmr_logreg_mean, context_text, original
+     Accuracy: 0.6866, F1: 0.6557
+  4. tier2_tfidf_logreg, context_text, original
+     Accuracy: 0.6716, F1: 0.6333
+  5. tier2_tfidf_logreg, context_text, normalized
+     Accuracy: 0.6716, F1: 0.6333
+
+======================================================================
+2. NORMALIZATION EFFECT
+======================================================================
+
+Overall: Normalization HURTS on average
+  Mean accuracy change: -0.0410
+  Conditions where normalization helps: 3
+  Conditions where normalization hurts: 12
+  Conditions with no change: 1
+
+Biggest positive effects (normalization helps):
+  xlmr_logreg, text_only, gold: +0.0536
+  xlmr_logreg, text_only, gold: +0.0357
+  xlmr_logreg, text_only, test: +0.0149
+
+Biggest negative effects (normalization hurts):
+  tfidf_logreg, context_text, gold: -0.1429
+  tfidf_svm, context_text, gold: -0.1071
+  tfidf_svm, text_only, test: -0.1045
+
+======================================================================
+3. INPUT TYPE EFFECT
+======================================================================
+
+Context effect (context_text vs text_only):
+  Mean accuracy change: +0.0032
+  Conditions where context helps: 8
+  Conditions where context hurts: 5
+
+======================================================================
+4. FLIP ANALYSIS
+======================================================================
+
+Normalization flips: 157 total
+  Normalization helps (wrong→correct): 66
+  Normalization hurts (correct→wrong): 91
+
+  Sample examples where normalization HURTS:
+    1. "HOWARD: Let's not talk about this in front of our friends."
+       True: literal, Original pred: 0, Normalized pred: 1
+    2. "CHANDLER: Well thank God your livelihood doesn't depend on it."
+       True: sarcastic, Original pred: 1, Normalized pred: 0
+    3. "MONICA: You had no relationship!!"
+       True: literal, Original pred: 0, Normalized pred: 1
+
+Input type flips: 141 total
+  Context helps (wrong→correct): 83
+  Context hurts (correct→wrong): 58
+
+Model disagreements: 92 unique examples
+
+======================================================================
+END OF REPORT
+======================================================================
