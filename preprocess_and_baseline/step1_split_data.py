@@ -18,6 +18,8 @@ Output:
     - outputs/data_splits/gold.csv
     - outputs/data_splits/split_info.txt (summary)
 
+Author: Hasan Can Biyik
+Date: January 2026
 """
 
 import pandas as pd
