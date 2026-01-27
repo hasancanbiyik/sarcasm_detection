@@ -1,0 +1,5 @@
+split,num_examples,num_models,all_correct_count,all_wrong_count,mean_models_wrong,median_models_wrong
+train,529,6,123,30,2.175803402646503,2.0
+val,66,10,7,0,3.287878787878788,3.0
+test,67,18,0,0,6.731343283582089,6.0
+gold,28,18,1,0,6.142857142857143,5.5
