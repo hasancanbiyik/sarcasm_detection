@@ -1,4 +1,4 @@
-# Core dependencies for XLM-RoBERTa fine-tuning
+# Core dependencies for fine-tuning
 torch>=2.0.0
 transformers>=4.30.0
 pandas>=2.2.3
