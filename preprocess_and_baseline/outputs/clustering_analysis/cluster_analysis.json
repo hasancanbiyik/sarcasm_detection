@@ -1,0 +1,514 @@
+{
+  "0": {
+    "size": 3,
+    "label_distribution": {
+      "1": 3
+    },
+    "fp_count": 0,
+    "fn_count": 3,
+    "majority_label": "sarcastic",
+    "primary_error_type": "FN (missed sarcasm)",
+    "top_words": {
+      "work": 2,
+      "wow": 1,
+      "still": 1,
+      "assumed": 1,
+      "balled": 1,
+      "corner": 1,
+      "barn": 1,
+      "somewhere": 1,
+      "love": 1,
+      "cleaning": 1,
+      "privilege": 1,
+      "watch": 1,
+      "mind": 1
+    },
+    "character_mentions": {
+      "bernadette": 2,
+      "sheldon": 1
+    },
+    "avg_word_count": 16.0,
+    "exclamation_pct": 0.0,
+    "question_pct": 33.3,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "BERNADETTE: Wow, you still have it? I just assumed it was balled up in the corner of a barn somewhere.",
+      "BERNADETTE: And I love that I work and do all the cleaning, and you're okay with that.",
+      "SHELDON: It's just a privilege to watch your mind at work."
+    ]
+  },
+  "1": {
+    "size": 12,
+    "label_distribution": {
+      "1": 10,
+      "0": 2
+    },
+    "fp_count": 2,
+    "fn_count": 10,
+    "majority_label": "sarcastic",
+    "primary_error_type": "FN (missed sarcasm)",
+    "top_words": {
+      "third": 2,
+      "janice": 2,
+      "wait": 2,
+      "many": 1,
+      "cameras": 1,
+      "actually": 1,
+      "keep": 1,
+      "kids": 1,
+      "school": 1,
+      "sometimes": 1,
+      "steal": 1,
+      "believe": 1,
+      "piece": 1,
+      "furniture": 1,
+      "fine": 1
+    },
+    "character_mentions": {
+      "chandler": 12,
+      "rachel": 1
+    },
+    "avg_word_count": 12.2,
+    "exclamation_pct": 16.7,
+    "question_pct": 33.3,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "CHANDLER: Uh, so how many cameras are actually on you.",
+      "CHANDLER: If that doesn't keep kids in school, what will?",
+      "CHANDLER: And sometimes I would want you to steal third, and I'll go like this.",
+      "CHANDLER: Well, I believe the piece of furniture was fine until your little breakfast adventure with Angela Delvecchio",
+      "CHANDLER: Well, it will probably slow me down at first. But once I am used to the extra weight, I ll get back on track."
+    ]
+  },
+  "2": {
+    "size": 10,
+    "label_distribution": {
+      "0": 6,
+      "1": 4
+    },
+    "fp_count": 6,
+    "fn_count": 4,
+    "majority_label": "literal",
+    "primary_error_type": "FP (false sarcasm)",
+    "top_words": {
+      "big": 3,
+      "kind": 2,
+      "beer": 2,
+      "somebody": 1,
+      "bigger": 1,
+      "sure": 1,
+      "makes": 1,
+      "feel": 1,
+      "alive": 1,
+      "relationship": 1,
+      "mean": 1,
+      "needs": 1,
+      "savings": 1,
+      "account": 1,
+      "night": 1
+    },
+    "character_mentions": {
+      "person": 2,
+      "monica": 3,
+      "chandler": 2,
+      "leonard": 2,
+      "ross": 1
+    },
+    "avg_word_count": 14.3,
+    "exclamation_pct": 40.0,
+    "question_pct": 30.0,
+    "ellipsis_pct": 20.0,
+    "examples": [
+      "PERSON: I don't know. Somebody bigger and... Yeah, sure. Why not you?",
+      "PERSON: Kind of makes you feel more alive, doesn't it?",
+      "MONICA: You had no relationship!!",
+      "CHANDLER: Well, y'know I'm 29. I mean who needs a savings account.",
+      "LEONARD: You know this can go on all night. Why don't you just come with us?"
+    ]
+  },
+  "3": {
+    "size": 9,
+    "label_distribution": {
+      "1": 5,
+      "0": 4
+    },
+    "fp_count": 4,
+    "fn_count": 5,
+    "majority_label": "sarcastic",
+    "primary_error_type": "FN (missed sarcasm)",
+    "top_words": {
+      "god": 2,
+      "convinced": 1,
+      "thought": 1,
+      "liked": 1,
+      "new": 1,
+      "couch": 1,
+      "almost": 1,
+      "gave": 1,
+      "heart": 1,
+      "attack": 1,
+      "clicked": 1,
+      "dressed": 1,
+      "business": 1,
+      "woman": 1,
+      "walking": 1
+    },
+    "character_mentions": {
+      "chandler": 6,
+      "howard": 1,
+      "monica": 1,
+      "rachel": 1
+    },
+    "avg_word_count": 13.6,
+    "exclamation_pct": 44.4,
+    "question_pct": 11.1,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "CHANDLER: Oh Oh, I am convinced!",
+      "CHANDLER: Oh I see, I thought you just really really liked your new couch.",
+      "CHANDLER: Oh my god, you almost gave me a heart attack!",
+      "CHANDLER: And then and then you clicked it again, she's dressed. She is a business woman, she is walking down the street and oh oh oh she's naked.",
+      "HOWARD: Oh, just put it in your mouth and pop it like a zit."
+    ]
+  },
+  "4": {
+    "size": 13,
+    "label_distribution": {
+      "0": 8,
+      "1": 5
+    },
+    "fp_count": 8,
+    "fn_count": 5,
+    "majority_label": "literal",
+    "primary_error_type": "FP (false sarcasm)",
+    "top_words": {
+      "love": 3,
+      "morning": 3,
+      "guy": 2,
+      "whole": 2,
+      "lane": 2,
+      "per": 2,
+      "second": 2,
+      "arms": 2,
+      "terrific": 1,
+      "astronauts": 1,
+      "hurtling": 1,
+      "space": 1,
+      "named": 1,
+      "crash": 1,
+      "sensitive": 1
+    },
+    "character_mentions": {
+      "howard": 1,
+      "joey": 4,
+      "sheldon": 5,
+      "person": 1,
+      "person3": 1,
+      "ross": 1,
+      "penny": 2
+    },
+    "avg_word_count": 16.2,
+    "exclamation_pct": 7.7,
+    "question_pct": 15.4,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "HOWARD: Yeah, terrific. The other astronauts would love to go hurtling through space with a guy named \"Crash.\"",
+      "JOEY: It's that whole sensitive thing.",
+      "PERSON3: I'm sorry, Sheldon bought a loom and learned how to weave?",
+      "SHELDON: Provided he has already read and is familiar with the reestablishment of the DC multiverse.",
+      "JOEY: It's white plastic, with a handle, and it fits onto a stroller."
+    ]
+  },
+  "5": {
+    "size": 5,
+    "label_distribution": {
+      "1": 4,
+      "0": 1
+    },
+    "fp_count": 1,
+    "fn_count": 4,
+    "majority_label": "sarcastic",
+    "primary_error_type": "FN (missed sarcasm)",
+    "top_words": {
+      "problem": 2,
+      "hope": 1,
+      "hands": 1,
+      "steady": 1,
+      "width": 1,
+      "single": 1,
+      "hair": 1,
+      "biology": 1,
+      "sure": 1,
+      "genius": 1,
+      "technically": 1,
+      "notice": 1,
+      "reversible": 1,
+      "might": 1,
+      "starting": 1
+    },
+    "character_mentions": {
+      "amy": 1,
+      "leonard": 4
+    },
+    "avg_word_count": 16.2,
+    "exclamation_pct": 20.0,
+    "question_pct": 20.0,
+    "ellipsis_pct": 20.0,
+    "examples": [
+      "AMY: Hope your hands are steady. It's the width of a single hair. But this is just biology, so I'm sure it's no problem for a genius like you.",
+      "LEONARD: Technically, yes. But, if you'll notice... It's reversible!",
+      "LEONARD: We might be starting to zero in on your problem.",
+      "LEONARD: Also instead of just living in your mother's house, you could actually live inside her body.",
+      "LEONARD: A lot of people are working on that research. So what is all this?"
+    ]
+  },
+  "6": {
+    "size": 3,
+    "label_distribution": {
+      "0": 3
+    },
+    "fp_count": 3,
+    "fn_count": 0,
+    "majority_label": "literal",
+    "primary_error_type": "FP (false sarcasm)",
+    "top_words": {
+      "guy": 2,
+      "leonard": 1,
+      "may": 1,
+      "present": 1,
+      "live": 1,
+      "new": 1,
+      "delhi": 1,
+      "mrs": 1,
+      "koothrappali": 1,
+      "liquor": 1,
+      "store": 1,
+      "stuff": 1,
+      "tastes": 1,
+      "great": 1,
+      "coffee": 1
+    },
+    "character_mentions": {
+      "leonard": 1,
+      "raj": 2,
+      "person": 1,
+      "person1": 1
+    },
+    "avg_word_count": 18.0,
+    "exclamation_pct": 0.0,
+    "question_pct": 33.3,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "RAJ: Leonard, may I present, live from New Delhi, Dr. and Mrs. V. M. Koothrappali.",
+      "RAJ: I did. The guy at the liquor store said this stuff tastes great in coffee.",
+      "PERSON1: I wasn't by myself. I had a doctor, a nurse, and a helper guy. So, did you see who won the game?"
+    ]
+  },
+  "7": {
+    "size": 7,
+    "label_distribution": {
+      "1": 6,
+      "0": 1
+    },
+    "fp_count": 1,
+    "fn_count": 6,
+    "majority_label": "sarcastic",
+    "primary_error_type": "FN (missed sarcasm)",
+    "top_words": {
+      "stuff": 2,
+      "people": 1,
+      "wandered": 1,
+      "desert": 1,
+      "years": 1,
+      "took": 1,
+      "long": 1,
+      "walk": 1,
+      "understand": 1,
+      "point": 1,
+      "given": 1,
+      "choice": 1,
+      "jews": 1,
+      "always": 1,
+      "chinese": 1
+    },
+    "character_mentions": {
+      "howard": 6,
+      "penny": 1
+    },
+    "avg_word_count": 16.9,
+    "exclamation_pct": 28.6,
+    "question_pct": 42.9,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "HOWARD: It's why my people wandered the desert for 40 years. Took that long to walk it off.",
+      "HOWARD: I understand your point, but given a choice, Jews always go with Chinese food.",
+      "HOWARD: Why don't you keep that stuff in the bathroom?",
+      "HOWARD: - Now?! - No, after my tongue has swollen to the size of a brisket!",
+      "HOWARD: You're right, the party's fantastic. Please, tell me more. I haven't heard enough about it all week because hearing about that never gets old!"
+    ]
+  },
+  "8": {
+    "size": 5,
+    "label_distribution": {
+      "0": 4,
+      "1": 1
+    },
+    "fp_count": 4,
+    "fn_count": 1,
+    "majority_label": "literal",
+    "primary_error_type": "FP (false sarcasm)",
+    "top_words": {
+      "talk": 1,
+      "front": 1,
+      "friends": 1,
+      "start": 1,
+      "walking": 1,
+      "gas": 1,
+      "station": 1,
+      "something": 1,
+      "nearby": 1,
+      "glad": 1,
+      "finally": 1,
+      "found": 1,
+      "keeper": 1,
+      "rachel": 1,
+      "good": 1
+    },
+    "character_mentions": {
+      "howard": 1,
+      "leonard": 1,
+      "person": 2,
+      "joey": 1,
+      "rachel": 1
+    },
+    "avg_word_count": 14.2,
+    "exclamation_pct": 0.0,
+    "question_pct": 20.0,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "HOWARD: Let's not talk about this in front of our friends.",
+      "LEONARD: Come on, let's just start walking. There's got to be a gas station or something nearby.",
+      "PERSON: Well, I'm just glad you finally found yourself a keeper.",
+      "JOEY: Uh, Rachel's here, so good luck man, let me know how it works out.",
+      "PERSON: Take your shirt off, and let's see what we're dealing with here.  What are you doing?"
+    ]
+  },
+  "9": {
+    "size": 4,
+    "label_distribution": {
+      "1": 4
+    },
+    "fp_count": 0,
+    "fn_count": 4,
+    "majority_label": "sarcastic",
+    "primary_error_type": "FN (missed sarcasm)",
+    "top_words": {
+      "either": 1,
+      "gloria": 1,
+      "estefan": 1,
+      "eventually": 1,
+      "rhythm": 1,
+      "show": 1,
+      "slides": 1,
+      "hawaii": 1,
+      "lords": 1,
+      "arabia": 1,
+      "sit": 1,
+      "degrees": 1,
+      "eat": 1,
+      "enchiladas": 1
+    },
+    "character_mentions": {
+      "chandler": 1,
+      "dorothy": 3
+    },
+    "avg_word_count": 11.0,
+    "exclamation_pct": 0.0,
+    "question_pct": 0.0,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "CHANDLER: Yeah either that or gloria estefan was right eventually the rhythm is going to get you",
+      "DOROTHY: Show them your slides of Hawaii",
+      "DOROTHY: Lords of Arabia",
+      "DOROTHY: No, she is going to sit here where it\u00d5s a 112 degrees and eat enchiladas."
+    ]
+  },
+  "10": {
+    "size": 3,
+    "label_distribution": {
+      "0": 2,
+      "1": 1
+    },
+    "fp_count": 2,
+    "fn_count": 1,
+    "majority_label": "literal",
+    "primary_error_type": "FP (false sarcasm)",
+    "top_words": {
+      "need": 1,
+      "good": 1,
+      "pill": 1,
+      "hard": 1,
+      "nothing": 1,
+      "rhymes": 1,
+      "stupid": 1,
+      "name": 1,
+      "oughta": 1
+    },
+    "character_mentions": {
+      "phoebe": 3
+    },
+    "avg_word_count": 9.7,
+    "exclamation_pct": 33.3,
+    "question_pct": 0.0,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "PHOEBE: Yeah. Yeah, that's what you need a good .. pill.",
+      "PHOEBE: I know but it's so hard! Nothing rhymes with your stupid name!",
+      "PHOEBE: That oughta do it."
+    ]
+  },
+  "11": {
+    "size": 4,
+    "label_distribution": {
+      "0": 2,
+      "1": 2
+    },
+    "fp_count": 2,
+    "fn_count": 2,
+    "majority_label": "literal",
+    "primary_error_type": "FP (false sarcasm)",
+    "top_words": {
+      "bit": 2,
+      "saying": 2,
+      "fun": 2,
+      "looking": 1,
+      "new": 1,
+      "city": 1,
+      "live": 1,
+      "overreaction": 1,
+      "person": 1,
+      "dusty": 1,
+      "highway": 1,
+      "outside": 1,
+      "bakersfield": 1,
+      "mars": 1,
+      "holding": 1
+    },
+    "character_mentions": {
+      "leonard": 1,
+      "amy": 2,
+      "person": 1,
+      "howard": 1
+    },
+    "avg_word_count": 15.2,
+    "exclamation_pct": 25.0,
+    "question_pct": 75.0,
+    "ellipsis_pct": 0.0,
+    "examples": [
+      "LEONARD: Don't you think looking for a new city to live in is a bit of an overreaction?",
+      "AMY: I'm not saying that you're not fun. You're the most fun person I know.",
+      "HOWARD: On a dusty highway just outside Bakersfield. Where do you think? On Mars!",
+      "AMY: Saying that while holding a snowflake is a bit heavy-handed, don't you think?"
+    ]
+  }
+}

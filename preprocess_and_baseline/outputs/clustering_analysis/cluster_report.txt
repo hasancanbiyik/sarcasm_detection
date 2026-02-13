@@ -1,0 +1,320 @@
+======================================================================
+ERROR CLUSTERING ANALYSIS REPORT
+======================================================================
+Generated: 2026-01-07 20:36:56
+
+
+======================================================================
+1. CLUSTERING OVERVIEW
+======================================================================
+
+Number of clusters: 12
+Embedding type: tfidf
+Silhouette score: 0.0153
+Total unique errors clustered: 78
+
+----------------------------------------------------------------------
+CLUSTER SUMMARY
+----------------------------------------------------------------------
+Cluster    Size     Type                 Top Character   Key Feature
+----------------------------------------------------------------------
+0          3        FN (missed sarcasm)  bernadette      question:33%
+1          12       FN (missed sarcasm)  chandler        question:33%
+2          10       FP (false sarcasm)   monica          exclaim:40%
+3          9        FN (missed sarcasm)  chandler        exclaim:44%
+4          13       FP (false sarcasm)   sheldon         normal
+5          5        FN (missed sarcasm)  leonard         normal
+6          3        FP (false sarcasm)   raj             question:33%
+7          7        FN (missed sarcasm)  howard          question:43%
+8          5        FP (false sarcasm)   person          normal
+9          4        FN (missed sarcasm)  dorothy         normal
+10         3        FP (false sarcasm)   phoebe          exclaim:33%
+11         4        FP (false sarcasm)   amy             question:75%
+
+======================================================================
+2. DETAILED CLUSTER ANALYSIS
+======================================================================
+
+======================================================================
+CLUSTER 0: FN (MISSED SARCASM)
+======================================================================
+
+Size: 3 examples
+True labels: {1: 3}
+FP: 0, FN: 3
+
+Average word count: 16.0
+Has exclamation: 0.0%
+Has question: 33.3%
+Has ellipsis: 0.0%
+
+Top words: work, wow, still, assumed, balled, corner, barn, somewhere, love, cleaning
+Character mentions: bernadette(2), sheldon(1)
+
+Example texts:
+  1. BERNADETTE: Wow, you still have it? I just assumed it was balled up in the corner of a barn somewher...
+  2. BERNADETTE: And I love that I work and do all the cleaning, and you're okay with that.
+  3. SHELDON: It's just a privilege to watch your mind at work.
+
+======================================================================
+CLUSTER 1: FN (MISSED SARCASM)
+======================================================================
+
+Size: 12 examples
+True labels: {1: 10, 0: 2}
+FP: 2, FN: 10
+
+Average word count: 12.2
+Has exclamation: 16.7%
+Has question: 33.3%
+Has ellipsis: 0.0%
+
+Top words: third, janice, wait, many, cameras, actually, keep, kids, school, sometimes
+Character mentions: chandler(12), rachel(1)
+
+Example texts:
+  1. CHANDLER: Uh, so how many cameras are actually on you.
+  2. CHANDLER: If that doesn't keep kids in school, what will?
+  3. CHANDLER: And sometimes I would want you to steal third, and I'll go like this.
+
+======================================================================
+CLUSTER 2: FP (FALSE SARCASM)
+======================================================================
+
+Size: 10 examples
+True labels: {0: 6, 1: 4}
+FP: 6, FN: 4
+
+Average word count: 14.3
+Has exclamation: 40.0%
+Has question: 30.0%
+Has ellipsis: 20.0%
+
+Top words: big, kind, beer, somebody, bigger, sure, makes, feel, alive, relationship
+Character mentions: monica(3), person(2), chandler(2), leonard(2), ross(1)
+
+Example texts:
+  1. PERSON: I don't know. Somebody bigger and... Yeah, sure. Why not you?
+  2. PERSON: Kind of makes you feel more alive, doesn't it?
+  3. MONICA: You had no relationship!!
+
+======================================================================
+CLUSTER 3: FN (MISSED SARCASM)
+======================================================================
+
+Size: 9 examples
+True labels: {1: 5, 0: 4}
+FP: 4, FN: 5
+
+Average word count: 13.6
+Has exclamation: 44.4%
+Has question: 11.1%
+Has ellipsis: 0.0%
+
+Top words: god, convinced, thought, liked, new, couch, almost, gave, heart, attack
+Character mentions: chandler(6), howard(1), monica(1), rachel(1)
+
+Example texts:
+  1. CHANDLER: Oh Oh, I am convinced!
+  2. CHANDLER: Oh I see, I thought you just really really liked your new couch.
+  3. CHANDLER: Oh my god, you almost gave me a heart attack!
+
+======================================================================
+CLUSTER 4: FP (FALSE SARCASM)
+======================================================================
+
+Size: 13 examples
+True labels: {0: 8, 1: 5}
+FP: 8, FN: 5
+
+Average word count: 16.2
+Has exclamation: 7.7%
+Has question: 15.4%
+Has ellipsis: 0.0%
+
+Top words: love, morning, guy, whole, lane, per, second, arms, terrific, astronauts
+Character mentions: sheldon(5), joey(4), penny(2), howard(1), person(1)
+
+Example texts:
+  1. HOWARD: Yeah, terrific. The other astronauts would love to go hurtling through space with a guy name...
+  2. JOEY: It's that whole sensitive thing.
+  3. PERSON3: I'm sorry, Sheldon bought a loom and learned how to weave?
+
+======================================================================
+CLUSTER 5: FN (MISSED SARCASM)
+======================================================================
+
+Size: 5 examples
+True labels: {1: 4, 0: 1}
+FP: 1, FN: 4
+
+Average word count: 16.2
+Has exclamation: 20.0%
+Has question: 20.0%
+Has ellipsis: 20.0%
+
+Top words: problem, hope, hands, steady, width, single, hair, biology, sure, genius
+Character mentions: leonard(4), amy(1)
+
+Example texts:
+  1. AMY: Hope your hands are steady. It's the width of a single hair. But this is just biology, so I'm s...
+  2. LEONARD: Technically, yes. But, if you'll notice... It's reversible!
+  3. LEONARD: We might be starting to zero in on your problem.
+
+======================================================================
+CLUSTER 6: FP (FALSE SARCASM)
+======================================================================
+
+Size: 3 examples
+True labels: {0: 3}
+FP: 3, FN: 0
+
+Average word count: 18.0
+Has exclamation: 0.0%
+Has question: 33.3%
+Has ellipsis: 0.0%
+
+Top words: guy, leonard, may, present, live, new, delhi, mrs, koothrappali, liquor
+Character mentions: raj(2), leonard(1), person(1), person1(1)
+
+Example texts:
+  1. RAJ: Leonard, may I present, live from New Delhi, Dr. and Mrs. V. M. Koothrappali.
+  2. RAJ: I did. The guy at the liquor store said this stuff tastes great in coffee.
+  3. PERSON1: I wasn't by myself. I had a doctor, a nurse, and a helper guy. So, did you see who won the ...
+
+======================================================================
+CLUSTER 7: FN (MISSED SARCASM)
+======================================================================
+
+Size: 7 examples
+True labels: {1: 6, 0: 1}
+FP: 1, FN: 6
+
+Average word count: 16.9
+Has exclamation: 28.6%
+Has question: 42.9%
+Has ellipsis: 0.0%
+
+Top words: stuff, people, wandered, desert, years, took, long, walk, understand, point
+Character mentions: howard(6), penny(1)
+
+Example texts:
+  1. HOWARD: It's why my people wandered the desert for 40 years. Took that long to walk it off.
+  2. HOWARD: I understand your point, but given a choice, Jews always go with Chinese food.
+  3. HOWARD: Why don't you keep that stuff in the bathroom?
+
+======================================================================
+CLUSTER 8: FP (FALSE SARCASM)
+======================================================================
+
+Size: 5 examples
+True labels: {0: 4, 1: 1}
+FP: 4, FN: 1
+
+Average word count: 14.2
+Has exclamation: 0.0%
+Has question: 20.0%
+Has ellipsis: 0.0%
+
+Top words: talk, front, friends, start, walking, gas, station, something, nearby, glad
+Character mentions: person(2), howard(1), leonard(1), joey(1), rachel(1)
+
+Example texts:
+  1. HOWARD: Let's not talk about this in front of our friends.
+  2. LEONARD: Come on, let's just start walking. There's got to be a gas station or something nearby.
+  3. PERSON: Well, I'm just glad you finally found yourself a keeper.
+
+======================================================================
+CLUSTER 9: FN (MISSED SARCASM)
+======================================================================
+
+Size: 4 examples
+True labels: {1: 4}
+FP: 0, FN: 4
+
+Average word count: 11.0
+Has exclamation: 0.0%
+Has question: 0.0%
+Has ellipsis: 0.0%
+
+Top words: either, gloria, estefan, eventually, rhythm, show, slides, hawaii, lords, arabia
+Character mentions: dorothy(3), chandler(1)
+
+Example texts:
+  1. CHANDLER: Yeah either that or gloria estefan was right eventually the rhythm is going to get you
+  2. DOROTHY: Show them your slides of Hawaii
+  3. DOROTHY: Lords of Arabia
+
+======================================================================
+CLUSTER 10: FP (FALSE SARCASM)
+======================================================================
+
+Size: 3 examples
+True labels: {0: 2, 1: 1}
+FP: 2, FN: 1
+
+Average word count: 9.7
+Has exclamation: 33.3%
+Has question: 0.0%
+Has ellipsis: 0.0%
+
+Top words: need, good, pill, hard, nothing, rhymes, stupid, name, oughta
+Character mentions: phoebe(3)
+
+Example texts:
+  1. PHOEBE: Yeah. Yeah, that's what you need a good .. pill.
+  2. PHOEBE: I know but it's so hard! Nothing rhymes with your stupid name!
+  3. PHOEBE: That oughta do it.
+
+======================================================================
+CLUSTER 11: FP (FALSE SARCASM)
+======================================================================
+
+Size: 4 examples
+True labels: {0: 2, 1: 2}
+FP: 2, FN: 2
+
+Average word count: 15.2
+Has exclamation: 25.0%
+Has question: 75.0%
+Has ellipsis: 0.0%
+
+Top words: bit, saying, fun, looking, new, city, live, overreaction, person, dusty
+Character mentions: amy(2), leonard(1), person(1), howard(1)
+
+Example texts:
+  1. LEONARD: Don't you think looking for a new city to live in is a bit of an overreaction?
+  2. AMY: I'm not saying that you're not fun. You're the most fun person I know.
+  3. HOWARD: On a dusty highway just outside Bakersfield. Where do you think? On Mars!
+
+======================================================================
+3. KEY PATTERNS DISCOVERED
+======================================================================
+
+Clusters with mostly MISSED SARCASM (FN): 6
+  Cluster 0: 3 examples, words: work, wow, still, assumed, balled
+  Cluster 1: 12 examples, words: third, janice, wait, many, cameras
+  Cluster 3: 9 examples, words: god, convinced, thought, liked, new
+  Cluster 5: 5 examples, words: problem, hope, hands, steady, width
+  Cluster 7: 7 examples, words: stuff, people, wandered, desert, years
+  Cluster 9: 4 examples, words: either, gloria, estefan, eventually, rhythm
+
+Clusters with mostly FALSE SARCASM (FP): 5
+  Cluster 2: 10 examples, words: big, kind, beer, somebody, bigger
+  Cluster 4: 13 examples, words: love, morning, guy, whole, lane
+  Cluster 6: 3 examples, words: guy, leonard, may, present, live
+  Cluster 8: 5 examples, words: talk, front, friends, start, walking
+  Cluster 10: 3 examples, words: need, good, pill, hard, nothing
+
+----------------------------------------------------------------------
+
+Most frequent characters in errors:
+  chandler: 21 mentions
+  howard: 10 mentions
+  leonard: 9 mentions
+  person: 7 mentions
+  sheldon: 6 mentions
+
+======================================================================
+END OF REPORT
+======================================================================

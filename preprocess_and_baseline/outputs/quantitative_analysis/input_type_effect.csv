@@ -1,0 +1,17 @@
+tier,model_type,classifier,names_normalized,pooling,dataset,accuracy_text_only,f1_text_only,accuracy_context_text,f1_context_text,context_effect
+tier2,tfidf,logreg,False,NA,gold,0.6429,0.6667,0.6429,0.6667,0.0
+tier2,tfidf,logreg,False,NA,test,0.6642,0.64,0.6716,0.6333,0.0074
+tier2,tfidf,logreg,True,NA,gold,0.625,0.6557,0.5,0.5625,-0.125
+tier2,tfidf,logreg,True,NA,test,0.5821,0.5556,0.6716,0.6333,0.0895
+tier2,tfidf,svm,False,NA,gold,0.625,0.6441,0.6071,0.6207,-0.0179
+tier2,tfidf,svm,False,NA,test,0.6567,0.6349,0.6866,0.6557,0.0299
+tier2,tfidf,svm,True,NA,gold,0.6071,0.6333,0.5,0.5625,-0.1071
+tier2,tfidf,svm,True,NA,test,0.5522,0.5082,0.6567,0.6102,0.1045
+tier3,xlmr,logreg,False,cls,gold,0.6607,0.6984,0.75,0.7879,0.0893
+tier3,xlmr,logreg,False,cls,test,0.6269,0.6429,0.6866,0.6769,0.0597
+tier3,xlmr,logreg,False,mean,gold,0.6786,0.6897,0.6786,0.6897,0.0
+tier3,xlmr,logreg,False,mean,test,0.6716,0.6615,0.6866,0.6557,0.015
+tier3,xlmr,logreg,True,cls,gold,0.7143,0.7333,0.7143,0.75,0.0
+tier3,xlmr,logreg,True,cls,test,0.6418,0.6522,0.6119,0.6176,-0.0299
+tier3,xlmr,logreg,True,mean,gold,0.7143,0.7419,0.6429,0.6667,-0.0714
+tier3,xlmr,logreg,True,mean,test,0.6194,0.6107,0.6269,0.6032,0.0075

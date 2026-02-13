@@ -1,0 +1,94 @@
+======================================================================
+LINGUISTIC FEATURE ANALYSIS REPORT
+======================================================================
+Generated: 2026-01-07 20:27:13
+
+
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+
+Total predictions analyzed: 2280
+  Correct: 1463 (64.2%)
+  Incorrect: 817 (35.8%)
+
+======================================================================
+2. CORRECT VS INCORRECT PREDICTIONS
+======================================================================
+
+Top features distinguishing incorrect from correct predictions:
+(Positive diff_pct = higher in incorrect predictions)
+
+  all_caps_count                 ↑ +1440.0% *
+      Correct: 0.003, Incorrect: 0.053
+  ellipsis_count                 ↑  +165.5% *
+      Correct: 0.020, Incorrect: 0.053
+  has_ellipsis                   ↑  +165.5% *
+      Correct: 0.020, Incorrect: 0.053
+  sentiment_polarity             ↑  +113.7% *
+      Correct: 0.127, Incorrect: 0.272
+  sarcasm_marker_count           ↑   +64.1% *
+      Correct: 0.377, Incorrect: 0.618
+  starts_with_interjection       ↑   +60.7% *
+      Correct: 0.173, Incorrect: 0.278
+  positive_word_count            ↑   +56.9% *
+      Correct: 0.210, Incorrect: 0.329
+  negative_word_count            ↓   -38.1% *
+      Correct: 0.073, Incorrect: 0.045
+  has_contrast                   ↓   -37.9% *
+      Correct: 0.134, Incorrect: 0.083
+  intensifier_count              ↑   +36.9% *
+      Correct: 0.093, Incorrect: 0.127
+  has_sarcasm_marker             ↑   +29.3% *
+      Correct: 0.305, Incorrect: 0.394
+  sentence_count                 ↑   +28.8% *
+      Correct: 1.460, Incorrect: 1.880
+  sentiment_strength             ↑   +27.1% *
+      Correct: 0.023, Incorrect: 0.029
+  has_rhetorical_pattern         ↓   -26.3% 
+      Correct: 0.081, Incorrect: 0.060
+  negation_count                 ↓   -24.8% *
+      Correct: 0.358, Incorrect: 0.269
+
+  (* = statistically significant at p<0.05)
+
+  Total significant features: 20 / 28
+
+======================================================================
+3. FALSE POSITIVE VS FALSE NEGATIVE COMPARISON
+======================================================================
+
+False Positives (predicted sarcastic, actually literal): 365
+False Negatives (predicted literal, actually sarcastic): 452
+
+Top features distinguishing FP from FN:
+(Positive diff_pct = higher in False Negatives)
+
+  intensifier_count              ↑  +582.7% *
+  has_intensifier                ↑  +465.3% *
+  exclamation_count              ↑  +121.1% *
+  sarcasm_marker_count           ↑  +116.9% *
+  has_exclamation                ↑  +115.9% *
+  starts_with_interjection       ↑  +105.7% *
+  has_sarcasm_marker             ↑  +101.9% *
+  has_negation                   ↑   +87.9% *
+  sentiment_polarity             ↑   +79.1% *
+  question_count                 ↑   +69.0% *
+
+======================================================================
+4. KEY INSIGHTS
+======================================================================
+
+- Sentiment polarity differs by +113.7% in incorrect predictions
+
+- Incorrect predictions have 64.1% more sarcasm markers
+
+  → Surface markers may be misleading the model
+
+- Incorrect predictions are 22.6% longer
+
+- Incorrect predictions have 36.9% more intensifiers
+
+======================================================================
+END OF REPORT
+======================================================================

@@ -1,0 +1,18 @@
+# Core dependencies for XLM-RoBERTa fine-tuning
+torch>=2.0.0
+transformers>=4.30.0
+pandas>=2.2.3
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Optional: For faster training on GPU
+accelerate>=0.20.0
+
+# Optional: For progress bars
+tqdm>=4.65.0
+
+# Optional: For better tokenization
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+requests
